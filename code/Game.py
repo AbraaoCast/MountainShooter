@@ -36,5 +36,6 @@ class Game:
                 pygame.quit()  # Fecha a janela
                 quit()
             else:
-                pass
+                pygame.quit()  # Fecha a janela
+                quit()
 

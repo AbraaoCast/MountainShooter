@@ -1,11 +1,12 @@
-#C
-import pygame
 
+import pygame
+# C
 C_ORANGE = (255, 128, 0)
 C_WHITE = (255, 255, 255)
 C_YELLOW = (255, 255, 0)
 C_GREEN = (0, 128, 0)
 C_CYAN = (0, 128, 128)
+
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
 EVENT_TIMEOUT = pygame.USEREVENT + 2
@@ -124,17 +125,16 @@ PLAYER_KEY_RIGHT = {'Player2': pygame.K_RIGHT,
 PLAYER_KEY_SHOOT = {'Player2': pygame.K_RCTRL,
                     'Player1': pygame.K_LCTRL}
 
-
 # T
 TIMEOUT_STEP = 100  # 100ms
-TIMEOUT_LEVEL = 20000  # 20s
+TIMEOUT_LEVEL = 40000  # 40s
 
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
 
 # S
-SPAWN_TIME = 4000
+SPAWN_TIME = 2000
 
 SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
              'EnterName': (WIN_WIDTH / 2, 80),
